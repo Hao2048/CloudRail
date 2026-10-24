@@ -66,6 +66,10 @@ To build, install macOS build support for this Editor and choose
 `Builds/macOS/CloudRail.app`; the entry point is
 `CloudRail.Editor.CloudRailPlayerBuilder.BuildMac`.
 
+On macOS, run `python3 AgentScripts/package_macos.py` to package a DMG and ZIP,
+include font licenses, apply ad-hoc signing to the distribution copy, and write
+SHA-256 checksums under `Releases/`.
+
 Runtime code lives in `Assets/CloudRail/Scripts`, procedural builders in
 `Assets/CloudRail/Editor`, shaders in `Assets/CloudRail/Shaders`, and synthesized
 audio source scripts in `AgentScripts`. See the [Chinese README](README.md) for

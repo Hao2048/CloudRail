@@ -71,6 +71,8 @@
 
 构建入口：`CloudRail.Editor.CloudRailPlayerBuilder.BuildMac`。输出 `Builds/macOS/CloudRail.app`，构建摘要位于 `Builds/Reports/macOS-build.json`。它始终使用当前的 `CloudRail_Visual` 场景。
 
+需要制作 DMG / ZIP 时，在 Mac 上运行 `python3 AgentScripts/package_macos.py`。脚本会附带字体协议、对分发副本做本地签名，并在 `Releases/` 输出安装包和 SHA-256 校验文件。
+
 ## 项目结构
 
 | 目录 | 内容 |
