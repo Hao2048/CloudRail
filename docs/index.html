@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="云上列车 CloudRail：31 秒 1080p 实机展示，在线观看带原声的云端旅程。">
+  <title>云上列车 · CloudRail | 高清实机展示</title>
+  <link rel="icon" href="media/icon.svg" type="image/svg+xml">
+  <style>
+    :root{color-scheme:dark;font-family:system-ui,-apple-system,"PingFang SC",sans-serif;background:#0e202b;color:#f3f3e8}
+    *{box-sizing:border-box}body{margin:0;min-height:100svh;display:grid;place-items:center;background:radial-gradient(ellipse at top,#224657,#0e202b 75%)}
+    main{width:min(1200px,100%);padding:36px 24px;text-align:center}
+    header{display:flex;justify-content:center;align-items:center;gap:14px;margin-bottom:24px}header img{width:56px;height:56px}h1{font-size:clamp(23px,4vw,34px);margin:0;letter-spacing:.02em}
+    .tagline{color:#bdd4d8;font-size:15px;margin:8px 0 0}video{display:block;width:100%;aspect-ratio:16/9;background:#08141c;border-radius:14px;box-shadow:0 24px 70px #0006}
+    .caption{color:#b1cbd1;font-size:14px;line-height:1.8;margin:18px 0}nav{display:flex;justify-content:center;gap:24px;flex-wrap:wrap}a{color:#8ee0df;text-underline-offset:5px}a:hover{color:white}
+    #error{color:#ffdca0}footer{margin-top:28px;font-size:12px;color:#92acb5}
+  </style>
+</head>
+<body>
+  <main>
+    <header><img src="media/icon.svg" alt=""><div><h1>云上列车 · CloudRail</h1><p class="tagline">看火车越过云海，铁轨在前方一段段展开。</p></div></header>
+    <video id="showcase" controls playsinline loop preload="metadata" poster="media/cover.jpg" aria-label="云上列车 1080p 高清实机展示">
+      <source src="media/showcase-1080p.mp4" type="video/mp4">
+      你的浏览器暂不支持视频播放，请使用下方链接下载观看。
+    </video>
+    <p class="caption">点击播放 · 1080p / 30fps · 约 31 秒 · 含原声 · 循环播放<br>15–23 秒，和鸟群一起穿过云端。</p>
+    <p id="error" role="alert" hidden>视频暂时未能加载，请刷新重试，或下载原视频观看。</p>
+    <nav><a href="https://github.com/Hao2048/CloudRail#readme">返回 GitHub 项目</a><a href="https://github.com/Hao2048/CloudRail/releases/latest">下载 macOS 试玩版</a><a href="https://github.com/Hao2048/CloudRail/releases/download/v0.1.0/CloudRail-Showcase-1080p.mp4">下载高清原视频</a></nav>
+    <footer>Unity 实际运行画面 · In-game footage</footer>
+  </main>
+  <script>document.getElementById('showcase').addEventListener('error',()=>{document.getElementById('error').hidden=false});</script>
+</body>
+</html>
