@@ -25,18 +25,13 @@
 
 ## 实机展示
 
-<p align="center">
-  <a href="https://hao2048.github.io/CloudRail/">
-    <img src="docs/media/cover.jpg" width="960" alt="点击播放约 31 秒 1080p 高清原视频">
-  </a>
-  <br><sub>▶ 点击播放约 31 秒 1080p 高清原视频 · 含原声</sub>
-</p>
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/ff8e64d2-febd-4fde-9295-a62b92cc3559" controls width="960"></video>
+</div>
+<p align="center"><sub>约 31 秒 · 1080p / 30fps · 含原声 · 点击播放器直接观看</sub></p>
+<p align="center"><a href="https://github.com/Hao2048/CloudRail/releases/download/v0.1.0/CloudRail-Showcase-1080p.mp4">下载 1080p 高清原视频</a></p>
 
-<p align="center">
-  <a href="https://hao2048.github.io/CloudRail/">▶ 在线播放 1080p 高清原视频</a>
-</p>
-
-以上均为 Unity 实际运行画面。展示片包含列车近景、城堡全景与拉远收尾，**15–23 秒可以看到鸟群在火车旁盘旋伴飞**。点击上方封面即可打开带原声的 1080p 高清原视频。
+以上均为 Unity 实际运行画面。展示片包含列车近景、城堡全景与拉远收尾，**15–23 秒可以看到鸟群在火车旁盘旋伴飞**。点击上方播放器即可在 README 中直接观看。内嵌版经过编码压缩以满足 GitHub 附件大小限制，保留 1080p、30fps 和原声；完整原片可从上方链接下载。
 
 ### 与鸟群一起穿过云端
 

@@ -24,19 +24,14 @@
 
 ## In-game showcase
 
-<p align="center">
-  <a href="https://hao2048.github.io/CloudRail/">
-    <img src="docs/media/cover.jpg" width="960" alt="Play the original 31-second 1080p showcase">
-  </a>
-  <br><sub>▶ Play the original ~31-second 1080p video with sound</sub>
-</p>
-
-<p align="center">
-  <a href="https://hao2048.github.io/CloudRail/">▶ Play the original 1080p video online</a>
-</p>
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/ff8e64d2-febd-4fde-9295-a62b92cc3559" controls width="960"></video>
+</div>
+<p align="center"><sub>~31 seconds · 1080p / 30fps with sound · Play here</sub></p>
+<p align="center"><a href="https://github.com/Hao2048/CloudRail/releases/download/v0.1.0/CloudRail-Showcase-1080p.mp4">Download the original 1080p video</a></p>
 
 All footage is rendered in Unity. The close tracking shot with birds is at **15–23 seconds**.
-Click the cover above to open the original 1080p video with sound.
+Play directly in this README. The embedded copy is re-encoded to fit GitHub’s attachment size limit while retaining 1080p, 30fps and audio; the original file is available through the download link above.
 
 <p align="center">
   <img src="docs/media/birds.gif" width="720" alt="Birds flapping, gliding and circling alongside the train">
