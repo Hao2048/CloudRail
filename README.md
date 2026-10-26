@@ -1,20 +1,50 @@
-# CloudRail · 云上列车
+<p align="center">
+  <img src="docs/media/icon.svg" width="112" height="112" alt="CloudRail 云上列车图标">
+</p>
 
-**看火车越过云海，铁轨在前方一段段展开。**
+<h1 align="center">云上列车 · CloudRail</h1>
 
-一个以观看风景为核心的 Unity 桌面项目：浮空城堡、拱桥铁路、青蓝色小火车，以及沿途盘旋伴飞的鸟群。可以安静地看列车旅行，也可以下车探索空岛。
+<p align="center"><strong>看火车越过云海，铁轨在前方一段段展开。</strong></p>
+<p align="center">浮空城堡 · 拱桥铁路 · 鸟群伴飞 · 自由观景</p>
+<p align="center">一个用 AI 与 Unity 持续打磨的桌面风景体验，邀请你在云端慢下来。</p>
 
-*A scenic desktop Unity project with floating islands, unfolding railway bridges, a moving train, and birds flying alongside it.*
+<p align="center">
+  <a href="https://github.com/Hao2048/CloudRail/releases/latest">下载 macOS 试玩版</a> ·
+  <a href="#实机展示">观看实机展示</a> ·
+  <a href="#操作">操作指南</a> ·
+  <a href="#用-unity-打开">源码运行</a> ·
+  <a href="README.en.md">English</a>
+</p>
 
-[下载 macOS 试玩版](https://github.com/Hao2048/CloudRail/releases/latest) · [观看新版展示视频](docs/media/showcase.mp4) · [English](README.en.md)
+<p align="center">
+  <a href="https://github.com/Hao2048/CloudRail/releases/latest">
+    <img src="docs/media/opening.jpg" width="960" alt="游戏开场实机画面：小火车驶过云端城堡前的拱桥">
+  </a>
+  <br><sub>从一列小火车开始，沿着逐段展开的铁路，穿过云端群岛。</sub>
+</p>
 
-[![云上列车：点击观看新版展示视频](docs/media/cover.jpg)](docs/media/showcase.mp4)
+## 实机展示
+
+<p align="center">
+  <a href="https://github.com/Hao2048/CloudRail/releases/download/v0.1.0/CloudRail-Showcase-1080p.mp4">
+    <img src="docs/media/showcase-loop.gif" width="960" alt="约 31 秒完整实机循环展示：列车近景、城堡全景、鸟群伴飞与云端群岛">
+  </a>
+  <br><sub>完整约 31 秒循环动图 · 点击观看带声音的 1080p 视频</sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Hao2048/CloudRail/releases/download/v0.1.0/CloudRail-Showcase-1080p.mp4">▶ 观看 / 下载 1080p 完整视频</a> ·
+  <a href="docs/media/showcase.mp4">720p 轻量版</a>
+</p>
+
+以上均为 Unity 实际运行画面。展示片包含列车近景、城堡全景与拉远收尾，**15–23 秒可以看到鸟群在火车旁盘旋伴飞**。循环动图没有声音；如开启了 GitHub 的减少动态效果设置，需点击动图播放。
 
 ### 与鸟群一起穿过云端
 
-![鸟群在火车旁盘旋伴飞的实机画面](docs/media/birds.gif)
-
-[新版完整展示片](docs/media/showcase.mp4)约 31 秒，包含列车近景、城堡全景、鸟群伴飞与拉远收尾；**15–23 秒是鸟群与火车同框的跟拍镜头**。以上均为当前场景实际渲染画面。1080p 完整版也放在 [Release](https://github.com/Hao2048/CloudRail/releases/latest) 中。
+<p align="center">
+  <img src="docs/media/birds.gif" width="720" alt="鸟群在火车旁盘旋伴飞的实机特写">
+  <br><sub>沿途出现的鸟群，会围绕列车拍翼、滑翔与转弯跟随。</sub>
+</p>
 
 ## 画面与体验
 
@@ -39,17 +69,20 @@
 
 默认进入观景模式。
 
-| 操作 | 按键 |
-| --- | --- |
-| 切换观景机位 | `C` |
-| 环绕镜头 | 按住鼠标右键拖动 |
-| 调整远近 | 鼠标滚轮，或按住中键上下拖动 |
-| 暂停 / 继续观景 | `Space` |
-| 切换观景 / 探索 | `Tab` |
-| 探索时移动 | `W A S D` |
-| 探索时交互、上下车 | `E` |
-| 停站且已上车时选择目的地 | `F` |
-| 探索时帮助 / 暂停菜单 | `H` / `Esc` |
+<div align="center">
+<table>
+<tr><th>操作</th><th>按键</th></tr>
+<tr><td>切换观景机位</td><td><code>C</code></td></tr>
+<tr><td>环绕镜头</td><td>按住鼠标右键拖动</td></tr>
+<tr><td>调整远近</td><td>鼠标滚轮，或按住中键上下拖动</td></tr>
+<tr><td>暂停 / 继续观景</td><td><code>Space</code></td></tr>
+<tr><td>切换观景 / 探索</td><td><code>Tab</code></td></tr>
+<tr><td>探索时移动</td><td><code>W A S D</code></td></tr>
+<tr><td>探索时交互、上下车</td><td><code>E</code></td></tr>
+<tr><td>停站且已上车时选择目的地</td><td><code>F</code></td></tr>
+<tr><td>探索时帮助 / 暂停菜单</td><td><code>H</code> / <code>Esc</code></td></tr>
+</table>
+</div>
 
 ## 用 Unity 打开
 
@@ -75,17 +108,20 @@
 
 ## 项目结构
 
-| 目录 | 内容 |
-| --- | --- |
-| `Assets/Scenes/CloudRail_Visual.unity` | 当前完整展示场景 |
-| `Assets/CloudRail/Scripts/` | 火车、路径、展开铁路、镜头、鸟群与探索逻辑 |
-| `Assets/CloudRail/Editor/` | 程序化建模、场景工具与 macOS 构建入口 |
-| `Assets/CloudRail/Generated/` | 已生成的模型、材质、渲染配置及早期阶段资源 |
-| `Assets/CloudRail/Shaders/` | 岩壁、模型云、水流与场景材质 |
-| `Assets/CloudRail/Audio/` | 项目合成的音乐与环境音 |
-| `AgentScripts/` | 音频合成脚本及开发辅助脚本 |
-| `Documentation/` | 设计文档与开发记录；早期里程碑说明仅作历史参考 |
-| `docs/media/` | 新版视频、伴飞动图和展示封面 |
+<div align="center">
+<table>
+<tr><th>目录</th><th>内容</th></tr>
+<tr><td><code>Assets/Scenes/CloudRail_Visual.unity</code></td><td>当前完整展示场景</td></tr>
+<tr><td><code>Assets/CloudRail/Scripts/</code></td><td>火车、路径、展开铁路、镜头、鸟群与探索逻辑</td></tr>
+<tr><td><code>Assets/CloudRail/Editor/</code></td><td>程序化建模、场景工具与 macOS 构建入口</td></tr>
+<tr><td><code>Assets/CloudRail/Generated/</code></td><td>已生成的模型、材质、渲染配置及早期阶段资源</td></tr>
+<tr><td><code>Assets/CloudRail/Shaders/</code></td><td>岩壁、模型云、水流与场景材质</td></tr>
+<tr><td><code>Assets/CloudRail/Audio/</code></td><td>项目合成的音乐与环境音</td></tr>
+<tr><td><code>AgentScripts/</code></td><td>音频合成脚本及开发辅助脚本</td></tr>
+<tr><td><code>Documentation/</code></td><td>设计文档与开发记录；早期里程碑说明仅作历史参考</td></tr>
+<tr><td><code>docs/media/</code></td><td>游戏图标、开场画面、完整循环动图与视频</td></tr>
+</table>
+</div>
 
 `CloudRail_Milestone01`、`CloudRail_Journey`、`CloudRail_Release` 是保留的早期阶段场景。**试玩、录像和当前构建均以 `CloudRail_Visual` 为准。** 不建议直接对该场景执行早期的全量生成菜单，这会重建场景内容。
 

@@ -1,20 +1,48 @@
-# CloudRail
+<p align="center">
+  <img src="docs/media/icon.svg" width="112" height="112" alt="CloudRail icon">
+</p>
 
-**Watch a little train travel through the clouds as the railway unfolds ahead.**
+<h1 align="center">CloudRail · 云上列车</h1>
 
-CloudRail is a scenic desktop Unity project centered on watching a miniature
-floating world: cream-stone castles, cyan rooftops, arched viaducts, sculpted
-clouds, waterfalls, and birds circling alongside the train.
+<p align="center"><strong>Watch a little train travel through the clouds as the railway unfolds ahead.</strong></p>
+<p align="center">Floating castles · Unfolding viaducts · Birds in flight · Scenic cameras</p>
+<p align="center">A scenic desktop experience built with AI and Unity.</p>
 
-[Download for macOS](https://github.com/Hao2048/CloudRail/releases/latest) ·
-[Watch the latest showcase](docs/media/showcase.mp4) · [中文](README.md)
+<p align="center">
+  <a href="https://github.com/Hao2048/CloudRail/releases/latest">Download for macOS</a> ·
+  <a href="#in-game-showcase">Watch the showcase</a> ·
+  <a href="#open-the-source">Run the source</a> ·
+  <a href="README.md">中文</a>
+</p>
 
-[![Watch the latest CloudRail showcase](docs/media/cover.jpg)](docs/media/showcase.mp4)
+<p align="center">
+  <a href="https://github.com/Hao2048/CloudRail/releases/latest">
+    <img src="docs/media/opening.jpg" width="960" alt="Opening in-game view of the train and floating castle">
+  </a>
+  <br><sub>A little train, a railway unfolding ahead, and a world above the clouds.</sub>
+</p>
 
-![Birds accompanying the train, captured in Unity](docs/media/birds.gif)
+## In-game showcase
 
-The ~31-second showcase is actual Unity scene footage. The close tracking shot
-with birds is at **15–23 seconds**. A 1080p copy is included with the release.
+<p align="center">
+  <a href="https://github.com/Hao2048/CloudRail/releases/download/v0.1.0/CloudRail-Showcase-1080p.mp4">
+    <img src="docs/media/showcase-loop.gif" width="960" alt="Full 31-second looping Unity showcase with train, castle, birds and floating islands">
+  </a>
+  <br><sub>Full ~31-second loop · Click for the 1080p video with sound</sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Hao2048/CloudRail/releases/download/v0.1.0/CloudRail-Showcase-1080p.mp4">▶ Watch / download in 1080p</a> ·
+  <a href="docs/media/showcase.mp4">Lightweight 720p copy</a>
+</p>
+
+All footage is rendered in Unity. The close tracking shot with birds is at **15–23 seconds**.
+The animated preview is silent. GitHub's reduced-motion preference may require clicking to play it.
+
+<p align="center">
+  <img src="docs/media/birds.gif" width="720" alt="Birds flapping, gliding and circling alongside the train">
+  <br><sub>Sharing the journey with the birds.</sub>
+</p>
 
 ## Features
 
@@ -37,17 +65,20 @@ This build is not Developer ID signed or notarized. If macOS blocks the first
 launch, see [Apple's instructions](https://support.apple.com/en-us/102445) and
 only proceed after confirming that you trust the source.
 
-| Action | Input |
-| --- | --- |
-| Switch scenic camera | `C` |
-| Orbit | Hold right mouse button and drag |
-| Zoom | Scroll wheel, or vertical middle-button drag |
-| Pause scenic mode | `Space` |
-| Toggle scenic / exploration modes | `Tab` |
-| Walk in exploration mode | `W A S D` |
-| Interact / board / leave the train | `E` |
-| Choose destination while boarded and stopped | `F` |
-| Exploration help / pause menu | `H` / `Esc` |
+<div align="center">
+<table>
+<tr><th>Action</th><th>Input</th></tr>
+<tr><td>Switch scenic camera</td><td><code>C</code></td></tr>
+<tr><td>Orbit</td><td>Hold right mouse button and drag</td></tr>
+<tr><td>Zoom</td><td>Scroll wheel, or vertical middle-button drag</td></tr>
+<tr><td>Pause scenic mode</td><td><code>Space</code></td></tr>
+<tr><td>Toggle scenic / exploration modes</td><td><code>Tab</code></td></tr>
+<tr><td>Walk in exploration mode</td><td><code>W A S D</code></td></tr>
+<tr><td>Interact / board / leave the train</td><td><code>E</code></td></tr>
+<tr><td>Choose destination while boarded and stopped</td><td><code>F</code></td></tr>
+<tr><td>Exploration help / pause menu</td><td><code>H</code> / <code>Esc</code></td></tr>
+</table>
+</div>
 
 ## Open the source
 
