@@ -26,18 +26,17 @@
 
 <p align="center">
   <a href="https://github.com/Hao2048/CloudRail/releases/download/v0.1.0/CloudRail-Showcase-1080p.mp4">
-    <img src="docs/media/showcase-loop.gif" width="960" alt="Full 31-second looping Unity showcase with train, castle, birds and floating islands">
+    <img src="docs/media/cover.jpg" width="960" alt="Play the original 31-second 1080p showcase">
   </a>
-  <br><sub>Full ~31-second loop · Click for the 1080p video with sound</sub>
+  <br><sub>▶ Play the original ~31-second 1080p video with sound</sub>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Hao2048/CloudRail/releases/download/v0.1.0/CloudRail-Showcase-1080p.mp4">▶ Watch / download in 1080p</a> ·
-  <a href="docs/media/showcase.mp4">Lightweight 720p copy</a>
+  <a href="https://github.com/Hao2048/CloudRail/releases/download/v0.1.0/CloudRail-Showcase-1080p.mp4">▶ Watch / download the original 1080p video</a>
 </p>
 
 All footage is rendered in Unity. The close tracking shot with birds is at **15–23 seconds**.
-The animated preview is silent. GitHub's reduced-motion preference may require clicking to play it.
+Click the cover above to open the original 1080p video with sound.
 
 <p align="center">
   <img src="docs/media/birds.gif" width="720" alt="Birds flapping, gliding and circling alongside the train">

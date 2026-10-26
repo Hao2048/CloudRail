@@ -27,17 +27,16 @@
 
 <p align="center">
   <a href="https://github.com/Hao2048/CloudRail/releases/download/v0.1.0/CloudRail-Showcase-1080p.mp4">
-    <img src="docs/media/showcase-loop.gif" width="960" alt="约 31 秒完整实机循环展示：列车近景、城堡全景、鸟群伴飞与云端群岛">
+    <img src="docs/media/cover.jpg" width="960" alt="点击播放约 31 秒 1080p 高清原视频">
   </a>
-  <br><sub>完整约 31 秒循环动图 · 点击观看带声音的 1080p 视频</sub>
+  <br><sub>▶ 点击播放约 31 秒 1080p 高清原视频 · 含原声</sub>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Hao2048/CloudRail/releases/download/v0.1.0/CloudRail-Showcase-1080p.mp4">▶ 观看 / 下载 1080p 完整视频</a> ·
-  <a href="docs/media/showcase.mp4">720p 轻量版</a>
+  <a href="https://github.com/Hao2048/CloudRail/releases/download/v0.1.0/CloudRail-Showcase-1080p.mp4">▶ 观看 / 下载 1080p 高清原视频</a>
 </p>
 
-以上均为 Unity 实际运行画面。展示片包含列车近景、城堡全景与拉远收尾，**15–23 秒可以看到鸟群在火车旁盘旋伴飞**。循环动图没有声音；如开启了 GitHub 的减少动态效果设置，需点击动图播放。
+以上均为 Unity 实际运行画面。展示片包含列车近景、城堡全景与拉远收尾，**15–23 秒可以看到鸟群在火车旁盘旋伴飞**。点击上方封面即可打开带原声的 1080p 高清原视频。
 
 ### 与鸟群一起穿过云端
 
@@ -119,7 +118,7 @@
 <tr><td><code>Assets/CloudRail/Audio/</code></td><td>项目合成的音乐与环境音</td></tr>
 <tr><td><code>AgentScripts/</code></td><td>音频合成脚本及开发辅助脚本</td></tr>
 <tr><td><code>Documentation/</code></td><td>设计文档与开发记录；早期里程碑说明仅作历史参考</td></tr>
-<tr><td><code>docs/media/</code></td><td>游戏图标、开场画面、完整循环动图与视频</td></tr>
+<tr><td><code>docs/media/</code></td><td>游戏图标、开场画面、展示封面与鸟群动图</td></tr>
 </table>
 </div>
 
